@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Link } from 'react-router-dom';
 export const NavBar = ({ navName, mode, toggleMode, alertFun }) => {
   return (
@@ -8,6 +9,15 @@ export const NavBar = ({ navName, mode, toggleMode, alertFun }) => {
         <Link className="navbar-brand   p-3" to="/">
           {navName}
         </Link>
+=======
+export const NavBar = ({ navName }) => {
+  return (
+    <>
+      <nav className="navbar navbar-expand-lg navbar-light bg-primary ">
+        <a className="navbar-brand text-light p-3" href="/">
+          {navName}
+        </a>
+>>>>>>> 46d75c7cc2568a82e61adefd2f1f1fa392cb5fd2
         <button
           className="navbar-toggler"
           type="button"
@@ -20,6 +30,7 @@ export const NavBar = ({ navName, mode, toggleMode, alertFun }) => {
           <span className="navbar-toggler-icon" />
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
+<<<<<<< HEAD
           <ul className="navbar-nav mr-auto  ">
             <li className="nav-item active">
               <Link className="nav-link   " to="/">
@@ -52,6 +63,18 @@ export const NavBar = ({ navName, mode, toggleMode, alertFun }) => {
                   </label>
                 </div>
               </Link>
+=======
+          <ul className="navbar-nav mr-auto text-light">
+            <li className="nav-item active">
+              <a className="nav-link  text-light" href="/">
+                Home <span className="sr-only"></span>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link text-light" href="/">
+                
+              </a>
+>>>>>>> 46d75c7cc2568a82e61adefd2f1f1fa392cb5fd2
             </li>
           </ul>
         </div>

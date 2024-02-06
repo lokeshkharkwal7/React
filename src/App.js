@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from "react";
 import { NavBar } from "./components/Navbar";
 import About from "./components/about";
@@ -52,3 +53,21 @@ function App() {
 export default App;
 
 // changing the mode function inside return and send as prop
+=======
+
+import { NavBar } from './components/Navbar';
+import { Textbox } from './components/textBox';
+
+function App() {
+  return (
+    <>
+    {/* example of prop  */}
+    <NavBar navName="Text Utilities"></NavBar>
+    {/* example of stat  */}
+    <Textbox></Textbox>
+
+    </>
+  );  
+}
+export default App;
+>>>>>>> 46d75c7cc2568a82e61adefd2f1f1fa392cb5fd2
